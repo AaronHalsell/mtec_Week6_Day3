@@ -1,3 +1,6 @@
+
+//// Submitting a new comment
+
 let name = $('#name');
 let comment = $('#comment');
   
@@ -6,6 +9,8 @@ $("#mainSubmit").on('click', function() {
     name.val('');
     comment.val('');
 });
+
+/// Editing existing comments
 
 $("#commentSection").on('click', '.delete', function(){
     (this).closest('.newComment').remove();
